@@ -1,0 +1,124 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Header */
+header {
+  background: #825555;
+  color: #141212;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header ul li {
+  margin: 0 10px;
+}
+
+header ul li a {
+  color: #170707;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+  background: url('coffee.jpg') no-repeat center center/cover;
+  color: rgb(20, 4, 4);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+}
+
+#menu .menu-item {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #220d0d;
+}/* Hero Section */
+#hero {
+    background: url('images/coffee-hero.jpg') no-repeat center center/cover;
+    color: rgb(10, 0, 0);
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  /* About Section */
+  #about {
+    background: url('images/coffee-beans.jpg') no-repeat center center/cover;
+    color: rgb(15, 1, 1);
+    padding: 3rem 2rem;
+  }
+  
+  /* Menu Section */
+  #menu {
+    background: url('images/coffee-cup.jpg') no-repeat center center/cover;
+    color: #333;
+    padding: 3rem 2rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: url('images/coffee-footer.jpg') no-repeat center center/cover;
+    color: #0a0101;
+    padding: 1rem;
+    text-align: center;
+  }coffee-hero.jpg, coffee-beans.jpg
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Background</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hero">
+    <h1>Welcome to Our Coffee Shop</h1>
+    <p>Your daily dose of freshly brewed happiness.</p>
+    <button>Explore Menu</button>
+  </div>
+</body>
+</html>
+
+  
